@@ -5,4 +5,4 @@ I developed this website as a class project. Got highest marks in the whole clas
 
 ---
 
-###### *The website is not responsive.*
+*The website is not responsive.*
