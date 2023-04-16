@@ -1,0 +1,354 @@
+/******** GLOBAL STYLING *****************/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+h2 {
+    text-align: center;
+    font-size: 48px !important;
+    font-weight: 400 !important;
+}
+
+h5 {
+    text-align: center;
+    font-size: 24px !important;
+}
+
+a {
+    text-decoration: none !important;
+    color: #fff !important;
+}
+
+a:hover,
+a:focus {
+    color: #c3242a !important;
+    transition:  250ms ease-in-out !important;
+}
+
+a.banner-2-2-section-link {
+    font-size: 34px;
+}
+
+/* $xl: 1200px;
+$lg: 995px;
+$md: 768px;
+$sm: 576px; */
+
+.btn-classic {
+    padding: 10px 30px;
+    background: none;
+    border: 1px solid #d6d6d6;
+    color: #999;
+}
+
+.btn-classic:hover,
+.btn-classic:focus {
+    color: #fff;
+    background-color: #c3242a;
+    border: 1px solid #c3242a;
+    transition: 250ms ease-in-out;
+}
+
+section {
+    margin-bottom: 80px !important;
+}
+
+#banner-section .banner-2-1,
+#banner-section .banner-2-2,
+#products-section .products,
+#news-section .news-container,
+.hassssannnn,
+#contact-form-section,
+#blogPageNewsCatalog .blog-news-container,
+#blogPageNewsCatalog .blog-news-container .blog-news {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 80px !important;
+}
+
+
+/******** NAVBAR STYLING *****************/
+
+
+#navbar {
+    margin: 0 20px;
+}
+
+.navbar-wrapper {
+
+    height: 100px;
+
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-wrapper img.logo {
+    width: 65px;
+}
+
+.navbar-wrapper .nav-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.navbar-wrapper .nav-menu li {
+    margin: 0 10px;
+    font-size: 16px;
+}
+
+.navbar-wrapper .nav-menu li a {
+    color: #000 !important;
+}
+
+.navbar-wrapper .nav-menu li a:hover,
+.navbar-wrapper .nav-menu li a:focus {
+    color: #c3242a !important;
+    transition:  250ms ease-in-out !important;
+}
+
+.navbar-wrapper .nav-menu li a.ILoveHassan {
+    color: #ff00c7 !important;
+}
+
+
+/******** HERO STYLING *****************/
+
+
+#hero-section .carousel-inner {
+    height: calc(100vh - 100px);
+}
+
+#hero-section .carousel-inner .carousel-item img {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/******** BANNER SECTION STYLING *****************/
+
+
+#banner-section .banner-1 {
+    overflow: hidden;
+}
+
+#banner-section .banner-2-1 {
+    height: 50vh;
+    flex-direction: column;
+    border: 1px solid #d6d6d6;
+
+    margin-bottom: 13px;
+}
+
+#banner-section .banner-2-1 p {
+    margin: 10px 0 30px 0 !important;
+}
+
+
+#banner-section .banner-2-2 {
+    /* background-image: url(images/side-image-2.jpg); */
+    height: 51%;
+}
+
+
+/******** PRODUCTS SECTION *****************/
+
+
+#products-section .categories-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin: 40px 0 25px 0;
+    border-bottom: 1px solid #d6d6d6;
+}
+
+#products-section .categories-wrapper .category {
+    text-align: center;
+}
+
+#products-section .categories-wrapper .category i {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+#products-section .categories-wrapper .category p {
+    font-size: 14px;
+}
+
+#products-section .products {
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+#products-section .products .product {
+    text-align: center;
+}
+
+#products-section .products .product img {
+    width: 234px;
+    height: 236px
+}
+
+#products-section .products .product h5 {
+    margin-top: 17px;
+}
+
+#products-section .products .product p {
+    font-size: 14px;
+    margin-top: 19px;
+}
+
+
+/******** NEWS SECTION *****************/
+
+
+#news-section .news-container {
+    align-items: initial;
+}
+
+#news-section .news-container {
+    margin-top: 40px;
+}
+#news-section .news-container .news {
+    margin: 0 10px;
+}
+
+#news-section .news-container .news img {
+    width: 380px;
+    height: 214px;
+}
+
+#news-section .news-container .news h5,
+#blogPageNewsCatalog .blog-news-container .blog-news h5 {
+    font-size: 20px !important;
+    text-align: left;
+    margin: 15px 0 30px 0;
+}
+
+#news-section .news-container .news p,
+#blogPageNewsCatalog .blog-news-container .blog-news p {
+    font-size: 14px;
+}
+
+#news-section .btn-news {
+    width: 165px;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+
+/******** FOOTER *****************/
+
+
+footer {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    height: 200px;
+    border-top: 2px solid;
+}
+
+footer .copyrights {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 14px;
+}
+
+
+/******** I LOVE HASSAN PAGE *****************/
+
+
+.hassssannnn {
+    margin: 50px 0;
+    flex-direction: column;
+}
+
+.hassssannnn img {
+    width: 400px;
+}
+
+.hassssannnn h1 {
+    margin: 15px 0 30px 0;
+}
+
+
+/******** CONTACT PAGE *****************/
+
+#contact-form-section {
+    text-align: center;
+    margin: 80px 0 120px 0 !important;
+}
+
+#contact-form-section form {
+    width: 60%;
+    text-align: left;
+    margin: 0 auto !important;
+    margin-top: 30px !important;
+    outline: none !important;
+}
+
+#contact-form-section form .form-group {
+    margin-bottom: 15px;
+}
+
+#contact-form-section form .btn-container {
+    display: flex;
+    justify-content: center;
+}
+
+#contact-form-section form .btn-container button {
+    margin-top: 30px;
+    padding: 10px 40px;
+}
+
+
+/******** BLOG PAGE *****************/
+
+#blogPageNewsCatalog {
+    margin: 100px 0;
+}
+
+#blogPageNewsCatalog .blog-news-container {
+    flex-direction: column;
+}
+
+#blogPageNewsCatalog .blog-news-container .blog-news {
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+#blogPageNewsCatalog .blog-news-container .blog-news img {
+    width: 800px;
+    height: 500px;
+}
+
+#blogPageNewsCatalog .blog-news-container .blog-news h5 {
+    margin: 15px 0;
+    font-size: 30px !important;
+}
+
+#blogPageNewsCatalog .blog-news-container .blog-news p {
+    width: 70%;
+}
+
